@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PredictionEngine">
+    <output-path>$PROJECT_DIR$/out/artifacts/PredictionEngine</output-path>
+    <root id="archive" name="PredictionEngine.jar">
+      <element id="module-output" name="engine" />
+    </root>
+  </artifact>
+</component>

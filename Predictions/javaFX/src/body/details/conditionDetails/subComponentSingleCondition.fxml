@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="450.0" prefWidth="355.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="body.details.conditionDetails.SingleConditionController">
+   <children>
+      <HBox prefHeight="44.0" prefWidth="355.0">
+         <children>
+            <Label text="Type:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.8104265402843602" startY="0.6872037914691943">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="actionTypeLabel" prefHeight="17.0" prefWidth="259.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="12.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="44.0" prefWidth="355.0">
+         <children>
+            <Label text="Primary Entity:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.8104265402843602" startY="0.7582938388625592">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="primaryEntityLabel" prefHeight="17.0" prefWidth="183.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="12.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="45.0" prefWidth="355.0">
+         <children>
+            <Label text="Exist Secondary Entity:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8483412322274881" startX="0.9431279620853081" startY="0.5308056872037914">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="isExistSecondaryLabel" prefHeight="20.0" prefWidth="124.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="12.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="46.0" prefWidth="355.0">
+         <children>
+            <Label text="Secondary Entity:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8483412322274881" startX="0.9431279620853081" startY="0.5308056872037914">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="secondaryEntityLabel" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="12.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="50.0" prefWidth="355.0">
+         <children>
+            <Label text="Property Name:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8483412322274881" startX="0.9431279620853081" startY="0.5308056872037914">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="propertyNameLabel" prefHeight="20.0" prefWidth="172.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="12.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="42.0" prefWidth="355.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="102.0" text="Operator:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8483412322274881" startX="0.9431279620853081" startY="0.5308056872037914">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="operatorLabel" prefHeight="20.0" prefWidth="158.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="43.0" prefWidth="355.0">
+         <children>
+            <Label text="Value:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8483412322274881" startX="0.9431279620853081" startY="0.5308056872037914">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="valueLabel" prefHeight="20.0" prefWidth="174.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="52.0" prefWidth="355.0">
+         <children>
+            <Label text="Num Of Actions In Then:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8483412322274881" startX="0.9431279620853081" startY="0.5308056872037914">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="numOfActionsThenLabel" prefHeight="20.0" prefWidth="113.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="53.0" prefWidth="355.0">
+         <children>
+            <Label text="Num Of Actions In Else:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="0.8483412322274881" startX="0.9431279620853081" startY="0.5308056872037914">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.11239035427570343" green="0.5121527910232544" blue="0.5921052694320679" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="numOfActionsElseLabel" prefHeight="20.0" prefWidth="149.0">
+               <font>
+                  <Font size="14.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>

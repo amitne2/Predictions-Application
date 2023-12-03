@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.chart.LineChart?>
+<?import javafx.scene.chart.NumberAxis?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.VBox?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="523.0" prefWidth="683.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="body.results.ResultsBodyController">
+   <children>
+      <VBox fx:id="tableInformation" layoutX="142.0" layoutY="123.0" prefHeight="176.0" prefWidth="185.0" />
+      <Button fx:id="stopButton" layoutX="352.0" layoutY="25.0" mnemonicParsing="false" onAction="#stopOnClick" prefHeight="31.0" prefWidth="61.0" text="STOP" />
+      <Button fx:id="pauseButton" layoutX="423.0" layoutY="25.0" mnemonicParsing="false" onAction="#pauseOnclick" prefHeight="31.0" prefWidth="61.0" text="PAUSE" />
+      <Button fx:id="resumeButton" layoutX="494.0" layoutY="25.0" mnemonicParsing="false" onAction="#resumeOnClick" prefHeight="31.0" prefWidth="61.0" text="RESUME" />
+      <ScrollPane layoutX="14.0" layoutY="34.0">
+         <content>
+            <VBox fx:id="simulationProgressDetails" prefHeight="452.0" prefWidth="127.0" />
+         </content>
+      </ScrollPane>
+      <Label layoutX="21.0" layoutY="17.0" prefHeight="17.0" prefWidth="121.0" text="Simulation ID's:" />
+      <VBox layoutX="142.0" layoutY="17.0" prefHeight="99.0" prefWidth="210.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="90.0" text="Current Tick:">
+               <VBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="currTickLabel" prefHeight="17.0" prefWidth="112.0">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+            <Label prefHeight="17.0" prefWidth="158.0" text="Running Time (in seconds):">
+               <VBox.margin>
+                  <Insets left="10.0" top="20.0" />
+               </VBox.margin>
+            </Label>
+            <Label fx:id="currSecondsLabel" prefHeight="17.0" prefWidth="113.0">
+               <VBox.margin>
+                  <Insets left="10.0" />
+               </VBox.margin>
+            </Label>
+         </children>
+      </VBox>
+      <Label layoutX="337.0" layoutY="5.0" prefHeight="17.0" prefWidth="210.0" />
+      <VBox fx:id="graphDetails" layoutX="383.0" layoutY="71.0" prefHeight="268.0" prefWidth="260.0">
+         <children>
+            <LineChart fx:id="lineChart" axisSortingPolicy="Y_AXIS" prefHeight="279.0" prefWidth="231.0">
+              <xAxis>
+                <NumberAxis side="BOTTOM" />
+              </xAxis>
+              <yAxis>
+                <NumberAxis prefHeight="229.0" prefWidth="28.0" side="LEFT" />
+              </yAxis>
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </LineChart>
+         </children>
+      </VBox>
+      <ScrollPane layoutX="153.0" layoutY="334.0">
+         <content>
+            <VBox fx:id="selectEntityToDisplayData" prefHeight="151.0" prefWidth="161.0" />
+         </content>
+      </ScrollPane>
+      <ScrollPane layoutX="326.0" layoutY="333.0">
+         <content>
+            <VBox fx:id="diaplayPropertiesDetailsVbox" prefHeight="153.0" prefWidth="320.0" />
+         </content>
+      </ScrollPane>
+      <Label fx:id="terminationByLabel" layoutX="115.0" layoutY="6.0" prefHeight="17.0" prefWidth="185.0" />
+      <Label fx:id="errorSimulationLabel" layoutX="288.0" layoutY="5.0" prefHeight="17.0" prefWidth="386.0" />
+      <Button fx:id="startNewRunButton" layoutX="153.0" layoutY="299.0" mnemonicParsing="false" onAction="#startNewRunSimulation" prefHeight="25.0" prefWidth="121.0" text="START NEW RUN" />
+   </children>
+</Pane>

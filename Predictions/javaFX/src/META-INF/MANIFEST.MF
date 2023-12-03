@@ -1,0 +1,4 @@
+Manifest-Version: 1.0
+Main-Class: main.PredictionsApp
+Class-Path: PredictionEngine.jar PredictionsDTO.jar
+

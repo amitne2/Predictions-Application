@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.control.TabPane?>
+<?import javafx.scene.layout.BorderPane?>
+
+<ScrollPane fitToHeight="true" fitToWidth="true" stylesheets="@App.css" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="main.AppController">
+   <content>
+      <BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="0.0" minWidth="0.0" prefHeight="700.0" prefWidth="685.0">
+         <top>
+            <fx:include fx:id="headerComponent" source="../header/header.fxml" />
+         </top>
+         <center>
+            <ScrollPane fitToHeight="true" fitToWidth="true" BorderPane.alignment="CENTER">
+               <content>
+                  <TabPane fx:id="tabPane" minHeight="436.0" minWidth="649.0" prefHeight="436.0" prefWidth="649.0" tabClosingPolicy="UNAVAILABLE">
+                    <tabs>
+                      <Tab text="Details">
+                           <content>
+                              <fx:include fx:id="detailsTabComponent" source="../body/details/bodyDetails.fxml" />
+                           </content>
+                      </Tab>
+                      <Tab text="New Execution">
+                          <content>
+                              <fx:include fx:id="newExecutionTabComponent" source="../body/newExecution/bodyExecution.fxml" />
+                          </content>
+                      </Tab>
+                        <Tab text="Results">
+                           <content>
+                              <fx:include fx:id="resultsTabComponent" source="../body/results/bodyResults.fxml" />
+                           </content>
+                        </Tab>
+                    </tabs>
+                  </TabPane>
+               </content>
+            </ScrollPane>
+         </center>
+      </BorderPane>
+   </content>
+</ScrollPane>

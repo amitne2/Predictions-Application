@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.paint.Color?>
+<?import javafx.scene.paint.LinearGradient?>
+<?import javafx.scene.paint.Stop?>
+<?import javafx.scene.text.Font?>
+
+
+<VBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="465.0" prefWidth="384.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="body.details.calculationDetails.CalculationController">
+   <children>
+      <HBox prefHeight="60.0" prefWidth="384.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="84.0" text="Type:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.6635071090047393" startY="0.7488151658767772">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7763158082962036" green="0.03594054654240608" blue="0.03594054654240608" opacity="0.9900000095367432" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="actionTypeLabel" prefHeight="17.0" prefWidth="194.0">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="54.0" prefWidth="384.0">
+         <children>
+            <Label prefHeight="17.0" prefWidth="133.0" text="Primary Entity:">
+               <padding>
+                  <Insets top="10.0" />
+               </padding>
+               <HBox.margin>
+                  <Insets left="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.8720379146919431" startY="0.7488151658767772">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7763158082962036" green="0.03594054654240608" blue="0.03594054654240608" opacity="0.9900000095367432" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="calculationEntityNameLabel" prefHeight="27.0" prefWidth="193.0">
+               <HBox.margin>
+                  <Insets top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="65.0" prefWidth="384.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="186.0" text="Exist Secondary Entity:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.9241706161137441" startY="0.7488151658767772">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7763158082962036" green="0.03594054654240608" blue="0.03594054654240608" opacity="0.9900000095367432" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="calculationExistSecondaryLabel" prefHeight="17.0" prefWidth="144.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="59.0" prefWidth="384.0">
+         <children>
+            <Label prefHeight="27.0" prefWidth="178.0" text="Secondary Entity:">
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.9241706161137441" startY="0.862559241706161">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7763158082962036" green="0.03594054654240608" blue="0.03594054654240608" opacity="0.9900000095367432" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="calculationSecondaryLabel" prefHeight="17.0" prefWidth="168.0">
+               <HBox.margin>
+                  <Insets top="15.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="55.0" prefWidth="384.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="158.0" text="Expression: ">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.7962085308056872" startY="0.7772511848341231">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7763158082962036" green="0.03594054654240608" blue="0.03594054654240608" opacity="0.9900000095367432" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="calculationExpressionLabel" prefHeight="17.0" prefWidth="149.0">
+               <HBox.margin>
+                  <Insets left="5.0" top="12.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox prefHeight="71.0" prefWidth="384.0">
+         <children>
+            <Label prefHeight="20.0" prefWidth="173.0" text="Property Result Prop:">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font name="Bauhaus 93" size="18.0" />
+               </font>
+               <textFill>
+                  <LinearGradient endX="1.0" endY="1.0" startX="0.8720379146919431" startY="0.5402843601895734">
+                     <stops>
+                        <Stop>
+                           <color>
+                              <Color red="0.7763158082962036" green="0.03594054654240608" blue="0.03594054654240608" opacity="0.9900000095367432" />
+                           </color>
+                        </Stop>
+                        <Stop offset="1.0">
+                           <color>
+                              <Color red="1.0" green="1.0" blue="1.0" />
+                           </color>
+                        </Stop>
+                     </stops>
+                  </LinearGradient>
+               </textFill>
+            </Label>
+            <Label fx:id="calculationResultPropLabel" prefHeight="17.0" prefWidth="141.0">
+               <HBox.margin>
+                  <Insets left="10.0" top="10.0" />
+               </HBox.margin>
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+   </children>
+</VBox>

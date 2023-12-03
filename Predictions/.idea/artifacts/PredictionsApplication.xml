@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="PredictionsApplication">
+    <output-path>$PROJECT_DIR$/out/artifacts/PredictionsApplication</output-path>
+    <root id="archive" name="PredictionsApplication.jar">
+      <element id="module-output" name="javaFX" />
+    </root>
+  </artifact>
+</component>
